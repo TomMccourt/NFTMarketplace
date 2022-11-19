@@ -8,7 +8,7 @@ import {CgMenuLeft, CgMenuRight} from "react-icons/cg";
 
 //INTERNAL IMPORT
 import Style from './NavBar.module.css';
-import {Discover, HelpCenter, Notification, Profile, SideBar} from "./index";
+import {Discover, HelpCenter, Notification, Profile, Sidebar} from "./index";
 import {Button} from '../componentindex';
 import images from "../../img";
 
@@ -143,8 +143,8 @@ const openSideBar = ()=> {
             {/* SIDEBAR COMPONENT    */}
             {
               openSideMenu && (
-                <div className={Style.SideBar}>
-                  <SideBar setOpenSideMenu={setOpenSideMenu} />
+                <div className={Style.Sidebar}>
+                  <Sidebar setOpenSideMenu={setOpenSideMenu} />
                 </div>
               )}
         </div>

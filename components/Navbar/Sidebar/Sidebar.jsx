@@ -89,7 +89,7 @@ const Sidebar = ({ setOpenSideMenu }) => {
 
     const openHelpMenu = ()=> {
       if(!openHelp){
-        setOpenhelp(true);
+        setOpenHelp(true);
       } else{
         setOpenHelp(false);
       }
@@ -115,7 +115,7 @@ const Sidebar = ({ setOpenSideMenu }) => {
             <TiSocialFacebook/>
           </a>
           <a href="#">
-            <TiSociallinkedin/>
+            <TiSocialLinkedin/>
           </a>
           <a href="#">
             <TiSocialTwitter/>
